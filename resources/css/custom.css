@@ -1,5 +1,5 @@
 body {
-    background: url(/images/background.jpg?a2be49deba41f7e8eea96597682f6fb8);
+    background: url("../images/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,5 +7,3 @@ body {
     width: 100vw;
     height: 100vh;
 }
-
-

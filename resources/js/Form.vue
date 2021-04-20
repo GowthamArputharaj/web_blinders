@@ -1,5 +1,5 @@
 <template>
-    <div class="container py-5">
+    <div class="container py-5 main">
         <div class="row mb-4">
             <div class="col-lg-8 mx-auto text-center">
                 <h1 class="display-6">Web Blinders Laravel Form</h1>
@@ -142,6 +142,10 @@ import Swal from 'sweetalert2'
                             confirmButtonText: 'Cool'
                         });
 
+                        this.name = '';
+                        this.email = '';
+                        this.message = '';
+
                     })
                     .catch(err => {
                         console.log(err);
@@ -158,3 +162,7 @@ import Swal from 'sweetalert2'
         }
     }
 </script>
+
+<style scoped>
+
+</style>
